@@ -6,7 +6,7 @@
 *.lo
 *.o
 *.obj
-
+ 
 # Precompiled Headers
 *.gch
 *.pch
@@ -67,3 +67,12 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio
+.vs/
+
+# Visual Studio user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
