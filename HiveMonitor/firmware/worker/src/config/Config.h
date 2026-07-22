@@ -15,8 +15,8 @@ constexpr uint16_t THRESHOLD_HIGH = 350;
 
 
 //	=== timers ===
-constexpr uint16_t SILENCE_TIMEOUT_MS = 1200000; // 2 min.
-constexpr uint16_t OBS_MS = 300000; // 5 min.
+constexpr uint32_t SILENCE_TIMEOUT_MS = 120000; // 2 min (120.000 ms)
+constexpr uint32_t OBS_MS = 300000;             // 5 min (300.000 ms)
 
 
 //	=== daily limites ===
