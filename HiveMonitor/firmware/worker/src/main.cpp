@@ -1,5 +1,7 @@
 #include "config/Config.h"
 #include "config/Pins.h"
+#include "sensors/Microphone.h"
+
 
 void setup() {
 	// leds
@@ -10,4 +12,9 @@ void setup() {
 
 	// buzzer
 	pinMode(BUZZER_PIN, OUTPUT);
+}
+
+
+void loop() {
+	
 }
